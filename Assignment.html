@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome To Planet Express</title>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0" name="author" content="Abdulrahman Muhammed"/>
+<link rel="stylesheet" href="StyleSheet.css" name="viewport"/>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const themeToggleButton = document.getElementById('theme-toggle');
+    themeToggleButton.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('light-mode');
+      if (document.body.classList.contains('dark-mode')) {
+        themeToggleButton.textContent = 'Switch to Light Mode';
+      } else {
+        themeToggleButton.textContent = 'Switch to Dark Mode';
+      }
+    });
+  });
+</script>
+</head>
+<body>
+<header>
+  <div class="section"><img src="https://images.seeklogo.com/logo-png/10/1/planet-express-logo-png_seeklogo-109516.png" class="logo" alt="Logo" width="150" height="">
+</div></header>
+<hr>
+<main>
+  <div class="section">
+    <h1>Exploring the Planets of Our Solar System</h1>
+      <article>You can sign up to learn about planets through several educational resources. The Planetary Society offers a Planetary Academy membership designed for children & adults, which delivers quarterly adventure packs with space-themed activities, games, and educational content about the Solar System.
+ This program is tailored to spark lifelong curiosity in explorers and supports the organization’s mission to advance space science and exploration.
+  </article> <br>
+  <a href="#contact">
+    <button>Call Us</button>&nbsp; <u>Contact Us</a></u> <span id="footer"><button id="theme-toggle">Switch to Dark Mode</button></span></div>
+<hr> 
+ <div class="section">
+  <h2>How The Earth Moves</h2>
+      <article>
+        Earth moves through space in several interconnected ways. It rotates on its axis, which is an imaginary line running from the North Pole to the South Pole, completing one full spin approximately every 24 hours.
+  </article> <br>
+  <video class="rad" width="700" height="700" controls>
+        <source src="https://static.videezy.com/system/resources/previews/000/050/510/original/alb_glob0111_1080p_24fps.mp4" type="video/mp4" autoplay muted loop>Your browser does not support the video element.</video>
+        </div>
+        <hr>
+        <div class="section">
+          <h2>The Evolution Of Planets</h2>
+      <article>
+        The formation and evolution of planets is a complex process that occurs over billions of years. It begins with a cloud of gas and dust in space, known as a molecular cloud. Under the influence of gravity, this cloud collapses to form a rotating disk called a protoplanetary disk. Within this disk, particles collide and stick together, gradually forming larger bodies called planetesimals. Over time, these planetesimals continue to collide and merge, eventually forming protoplanets. As these protoplanets grow in size, their gravity attracts more material, leading to further growth. The final stages of planetary evolution involve processes such as differentiation, where heavier elements sink to the core while lighter elements rise to the surface, and geological activity that shapes the planet's surface. External factors like impacts from other celestial bodies and interactions with the host star also play significant roles in shaping a planet's characteristics over time.
+  </article> <br>
+  <figure>
+ <img class="rad" src="https://images.pexels.com/photos/7269443/pexels-photo-7269443.jpeg" alt="Space Design" width="700" height="700">
+  <figcaption>A Kid Designing Space</figcaption>
+</figure>
+        </div>
+        <hr>
+       <div class="section">
+        <section id="planets-table">
+          <h2>Data On Various Planets</h2>
+      <article>
+The Solar System consists of eight recognized planets orbiting the Sun, along with numerous dwarf planets, moons, and smaller bodies.
+ The planets, in order from the Sun, are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
+      </article> <br>
+Data about the planets of our solar system (Planetary facts taken from Nasa):
+ <br><br>
+<table>
+  <thead>
+  <tr>
+    <th colspan="2"></th>
+    <th>Name</th>
+    <th>Mass (10 24kg)</th>
+     <th>Diameter (km)</th>
+    <th>Density (kg/m3)</th>
+    <th>Gravity (m/s2)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th rowspan="4" colspan="2">Terrestrial Planets</th>
+    <td>Mecury</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+  <tr>
+    <td>Venus</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+  <tr>
+    <td>Earth</td>
+   <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+   <tr>
+    <td>Mars</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+  <tr>
+     <th rowspan="5">Jovian Planets</th>
+  </tr>
+   <tr>
+     <th rowspan="2">Gas Giants</th>
+    <td>Jupiter</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+   <tr>
+    <td>Saturn</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+   <tr>
+     <th rowspan="2">Ice Giants</th>
+    <td>Uranus</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+   <tr>
+    <td>Neptune</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+   <tr>
+    <th colspan="2">Dwarf Planets</th>
+    <td>Pluto</td>
+    <td>0.330</td>
+     <td>4,878</td>
+    <td>5427</td>
+    <td>3.7</td>
+  </tr>
+</tbody>
+ </table></section></div>
+ <hr>
+ <div class="section">
+ <section id="contact">
+  <h2>Contact Us</h2>
+  <article>
+    We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us using the contact form below. Our team is dedicated to providing you with the best experience possible and will get back to you as soon as we can. Thank you for visiting our website!.
+      </article> <br><br>
+ <form action="/submit_form.html" method="post">
+        <div style="float:left;margin-right:30px;">
+  <label for="fname">Full Name*</label>
+        <input type="text" id="fname" name="fname" style="width: 300px;" value="" placeholder="Fullname" minlength="10" maxlength="20" required>
+      </div>
+         <div style="float:left;"> 
+          <label for="email">Email*</label>
+        <input type="email" id="email" name="email" style="width: 300px;" value="" placeholder="example@example.com" required>
+      </div>
+       <br style="clear:both;" />
+       <br>
+        <div style="float:left;margin-right:30px;">
+          <label for="country">City*</label>
+        <select id="city" name="city" style="width: 300px;">
+            <option value="abuja">Abuja</option>
+            <option value="lagos">Lagos</option>
+            <option value="benin">Benin</option>
+            <option value="kano">Kano</option>
+          <option value="portharcourt">Port Harcourt</option>
+          <option value="calabar">Calabar</option>
+          <option value="kogi">Kogi</option>
+          <option value="bayelsa">Bayelsa</option>
+          <option value="borno">Borno</option>
+          <option value="others">Others</option>
+        </select> 
+         </div>
+         <div style="float:left;">
+          <label for="phone">Phone number*</label>
+        <input type="tel" id="phone" name="phone" style="width: 300px;" value="" placeholder="Enter your phone number" maxlength="11" required>
+        </div>
+       <br style="clear:both;" />
+        <br>
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" style="width: 650px;height:150px;" rows="4" cols="50" maxlength="100" required></textarea>
+        <br>
+        <span class="ghost">
+        100 characters</span><br><br>  
+        <label for="gender">How should we contact you?</label><br>
+        <div style="display:flex;">
+        <input type="radio" id="Phone" name="contact_type" value="Phone" style="margin-left: 0%;">
+        <label for="male">Phone</label>
+        <input type="radio" id="Email" name="contact_type" value="Email">
+        <label for="female">Email</label>
+        <input type="radio" id="Both" name="contact_type" value="Both">
+        <label for="female">Both</label>
+        </div><br>
+        <label for="gender">How did u hear about us?</label><br>
+        <div style="display:flex;">
+        <input type="checkbox" id="Friend" name="friend_option" value="Friend" style="margin-left: 0;">
+        <label for="male">Friend</label>
+        <input type="checkbox" id="TS Academy" name="ts_academy_option" value="TS Academy">
+        <label for="female">TS Academy</label>
+        <input type="checkbox" id="Others" name="others_option" value="Others">
+        <label for="female">Others</label>
+        </div><br><br>
+        <input type="submit" value="Submit  &gt;">
+    </form>
+ </section></div>
+</main>
+<hr>
+<footer>
+ <div class="section">
+      <h2>About</h2>
+      <nav>
+    <ul>
+        <li><a href="#">How it works</a></li><br>
+        <li><a href="#">Featured</a></li><br>
+        <li><a href="#">Partnership</a></li><br>
+        <li><a href="#">Business Relation</a></li>
+    </ul></nav> </div>
+    <hr>
+     <div class="section"><p>  &copy; 2025 DJ-TECH. All rights reserved. <span id="footer"><a href="#">Privacy & Policy</a> &nbsp;&nbsp;&nbsp;<a href="#">Terms & Conditions</a></span></p></div>
+</footer>    
+</body>
