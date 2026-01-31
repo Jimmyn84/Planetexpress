@@ -1,0 +1,123 @@
+﻿h1 {
+ text-align: center; }
+table, td, th {
+  border: 3px solid black;
+   padding: 10px;
+   text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.video {
+  background: #333; 
+  padding: 9px;
+  border: 12px outset #e0e0e0;
+}
+.vid {
+  border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+ overflow: hidden;
+}
+ body {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin: 20px;
+  font-family: Arial, sans-serif;
+ }
+ body.light-mode {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode table, .dark-mode td, .dark-mode th {
+   border: 3px solid #fff;
+}
+
+ #section {
+    padding: 1rem 0.5rem;
+  background-color: #f9f9f9;
+  border: #bdbdbd 1px solid;
+ }
+.rad {
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+    margin: 10px 0 0 0;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+figure {
+    padding: 5px;
+}
+.input { display: table-cell; 
+}
+select  {
+    cursor: pointer;
+}   
+input, label, select {
+    display:block;
+    margin-right:20px;
+    font-weight: bold;
+}
+.ghost {
+  color: rgba(0, 0, 0, 0.5);
+}
+.dark-mode .ghost {
+  color: rgb(255, 255, 255, 0.5);
+}
+#footer {
+    float: right;
+}
+a {
+    color: #9294ee;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #0086df;
+}
+a::before {
+  content: "🔗";
+}
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+  padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    background-color: #ecf0f1;
+    color: #333;
+}
+button:hover, input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+ input[type="submit"], button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  input[type="radio"],
+input[type="checkbox"] {
+  accent-color: green;
+  display: grid;
+  grid-template-columns: 1em auto;
+  margin-right: 8px;
+  margin-left: 50px;
+  cursor: pointer;
+
+}
